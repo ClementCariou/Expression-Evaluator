@@ -1,0 +1,14 @@
+{
+  "name": "expression-evaluator",
+  "version": "1.0.0",
+  "description": "Barebones expression evaluator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collect-coverage"
+  },
+  "author": "Clément Cariou",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
