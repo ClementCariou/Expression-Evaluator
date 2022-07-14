@@ -3,7 +3,7 @@ const {evaluateOperation} = require('./syntax');
 
 /**
  * An Abstract Syntax Tree node.
- * @typedef {{token:string, children:ASTNode[]}} ASTNode
+ * @typedef {{token:string, args:ASTNode[]}} ASTNode
  */
 
 /**
