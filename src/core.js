@@ -69,7 +69,7 @@ const constructAST = (tokens) => {
             args.push(tokens[token.index + 1]);
         // Merge the trees on the left and right side of the operator
         args = args.map(arg => {
-            while(arg?.parent !== undefined)
+            while(arg.parent !== undefined)
                 arg = tokens[arg.parent];
             arg.parent = token.index;
             return arg;
